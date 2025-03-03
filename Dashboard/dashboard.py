@@ -25,7 +25,7 @@ if menu == "Data Wrangling":
     sub_menu = st.sidebar.radio("Pilih Tahap", ["Data Gathering", "Assessing Data", "Cleaning Data"])
     
     if sub_menu == "Data Gathering":
-        st.subheader("Upload Dataset CSV")
+        st.subheader("Upload Dataset Bike Sharing Harian dalam CSV ")
         uploaded_file = st.file_uploader("Pilih file CSV", type=["csv"])
         if uploaded_file is not None:
             st.session_state.df = pd.read_csv(uploaded_file)
