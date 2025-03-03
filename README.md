@@ -17,14 +17,14 @@ Proyek ini bertujuan untuk menganalisis data penyewaan sepeda (Bike Sharing) men
 - **Visual Studio Code** (untuk membangun dashboard dengan streamlit)
 
 ## 🚀 Cara Menjalankan Proyek
-1. **Clone Repository**
+1️⃣ **Clone Repository**
    ```sh
    git clone https://github.com/Ginanti-Riski/streamlit_dataPenyewaanSepeda.git
    cd streamlit_dataPenyewaanSepeda
-2. **Buat Virtual Environment**
+2️⃣ **Buat Virtual Environment**
     ```sh
    python -m venv env
-3. **Jalankan Analisis**  
+3️⃣ **Jalankan Analisis**  
 
    a. **Aktifkan Virtual Environment & Install Dependencies**  
       - Untuk **MacOS/Linux**:
